@@ -1,0 +1,228 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F3D97895-53D2-4C47-98ED-F23A1C1ECE36}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="NonRectangular\NonRectangularWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BitmapWnd\BitmapWnd.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BmpWnd2\BmpWnd2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DragFullWindow\DragFullWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MinimizeMaximizeWindow\CaptureMaximizeMinimize.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="StaticWindow\NonMoveableWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MoveableLabel\MoveableLabel.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ChangeFormOnKey\ChangeFormOnKey.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ChangeSysMenu\ChangeSysMenu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CheckMenuOpen\CheckIfMenuOpen.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ActivateMenu\ActivateMenuOnCode.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ActivateButton\SimulateButtonClick.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AngledText\AngledText.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BlinkingTitle\BlinkingTitle.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RollupWindow\RollupWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DifferentLines\DifferentLines.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DesktopOnWindow\DestopOnWindow.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="NonRectangularWindow">
+        <MSBuild Projects="NonRectangular\NonRectangularWindow.dproj"/>
+    </Target>
+    <Target Name="NonRectangularWindow:Clean">
+        <MSBuild Projects="NonRectangular\NonRectangularWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NonRectangularWindow:Make">
+        <MSBuild Projects="NonRectangular\NonRectangularWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BitmapWnd">
+        <MSBuild Projects="BitmapWnd\BitmapWnd.dproj"/>
+    </Target>
+    <Target Name="BitmapWnd:Clean">
+        <MSBuild Projects="BitmapWnd\BitmapWnd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BitmapWnd:Make">
+        <MSBuild Projects="BitmapWnd\BitmapWnd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BmpWnd2">
+        <MSBuild Projects="BmpWnd2\BmpWnd2.dproj"/>
+    </Target>
+    <Target Name="BmpWnd2:Clean">
+        <MSBuild Projects="BmpWnd2\BmpWnd2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BmpWnd2:Make">
+        <MSBuild Projects="BmpWnd2\BmpWnd2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragFullWindow">
+        <MSBuild Projects="DragFullWindow\DragFullWindow.dproj"/>
+    </Target>
+    <Target Name="DragFullWindow:Clean">
+        <MSBuild Projects="DragFullWindow\DragFullWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragFullWindow:Make">
+        <MSBuild Projects="DragFullWindow\DragFullWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CaptureMaximizeMinimize">
+        <MSBuild Projects="MinimizeMaximizeWindow\CaptureMaximizeMinimize.dproj"/>
+    </Target>
+    <Target Name="CaptureMaximizeMinimize:Clean">
+        <MSBuild Projects="MinimizeMaximizeWindow\CaptureMaximizeMinimize.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CaptureMaximizeMinimize:Make">
+        <MSBuild Projects="MinimizeMaximizeWindow\CaptureMaximizeMinimize.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NonMoveableWindow">
+        <MSBuild Projects="StaticWindow\NonMoveableWindow.dproj"/>
+    </Target>
+    <Target Name="NonMoveableWindow:Clean">
+        <MSBuild Projects="StaticWindow\NonMoveableWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NonMoveableWindow:Make">
+        <MSBuild Projects="StaticWindow\NonMoveableWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MoveableLabel">
+        <MSBuild Projects="MoveableLabel\MoveableLabel.dproj"/>
+    </Target>
+    <Target Name="MoveableLabel:Clean">
+        <MSBuild Projects="MoveableLabel\MoveableLabel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MoveableLabel:Make">
+        <MSBuild Projects="MoveableLabel\MoveableLabel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChangeFormOnKey">
+        <MSBuild Projects="ChangeFormOnKey\ChangeFormOnKey.dproj"/>
+    </Target>
+    <Target Name="ChangeFormOnKey:Clean">
+        <MSBuild Projects="ChangeFormOnKey\ChangeFormOnKey.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChangeFormOnKey:Make">
+        <MSBuild Projects="ChangeFormOnKey\ChangeFormOnKey.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChangeSysMenu">
+        <MSBuild Projects="ChangeSysMenu\ChangeSysMenu.dproj"/>
+    </Target>
+    <Target Name="ChangeSysMenu:Clean">
+        <MSBuild Projects="ChangeSysMenu\ChangeSysMenu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChangeSysMenu:Make">
+        <MSBuild Projects="ChangeSysMenu\ChangeSysMenu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CheckIfMenuOpen">
+        <MSBuild Projects="CheckMenuOpen\CheckIfMenuOpen.dproj"/>
+    </Target>
+    <Target Name="CheckIfMenuOpen:Clean">
+        <MSBuild Projects="CheckMenuOpen\CheckIfMenuOpen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CheckIfMenuOpen:Make">
+        <MSBuild Projects="CheckMenuOpen\CheckIfMenuOpen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ActivateMenuOnCode">
+        <MSBuild Projects="ActivateMenu\ActivateMenuOnCode.dproj"/>
+    </Target>
+    <Target Name="ActivateMenuOnCode:Clean">
+        <MSBuild Projects="ActivateMenu\ActivateMenuOnCode.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ActivateMenuOnCode:Make">
+        <MSBuild Projects="ActivateMenu\ActivateMenuOnCode.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SimulateButtonClick">
+        <MSBuild Projects="ActivateButton\SimulateButtonClick.dproj"/>
+    </Target>
+    <Target Name="SimulateButtonClick:Clean">
+        <MSBuild Projects="ActivateButton\SimulateButtonClick.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimulateButtonClick:Make">
+        <MSBuild Projects="ActivateButton\SimulateButtonClick.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AngledText">
+        <MSBuild Projects="AngledText\AngledText.dproj"/>
+    </Target>
+    <Target Name="AngledText:Clean">
+        <MSBuild Projects="AngledText\AngledText.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AngledText:Make">
+        <MSBuild Projects="AngledText\AngledText.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BlinkingTitle">
+        <MSBuild Projects="BlinkingTitle\BlinkingTitle.dproj"/>
+    </Target>
+    <Target Name="BlinkingTitle:Clean">
+        <MSBuild Projects="BlinkingTitle\BlinkingTitle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BlinkingTitle:Make">
+        <MSBuild Projects="BlinkingTitle\BlinkingTitle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RollupWindow">
+        <MSBuild Projects="RollupWindow\RollupWindow.dproj"/>
+    </Target>
+    <Target Name="RollupWindow:Clean">
+        <MSBuild Projects="RollupWindow\RollupWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RollupWindow:Make">
+        <MSBuild Projects="RollupWindow\RollupWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DifferentLines">
+        <MSBuild Projects="DifferentLines\DifferentLines.dproj"/>
+    </Target>
+    <Target Name="DifferentLines:Clean">
+        <MSBuild Projects="DifferentLines\DifferentLines.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DifferentLines:Make">
+        <MSBuild Projects="DifferentLines\DifferentLines.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DestopOnWindow">
+        <MSBuild Projects="DesktopOnWindow\DestopOnWindow.dproj"/>
+    </Target>
+    <Target Name="DestopOnWindow:Clean">
+        <MSBuild Projects="DesktopOnWindow\DestopOnWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DestopOnWindow:Make">
+        <MSBuild Projects="DesktopOnWindow\DestopOnWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="NonRectangularWindow;BitmapWnd;BmpWnd2;DragFullWindow;CaptureMaximizeMinimize;NonMoveableWindow;MoveableLabel;ChangeFormOnKey;ChangeSysMenu;CheckIfMenuOpen;ActivateMenuOnCode;SimulateButtonClick;AngledText;BlinkingTitle;RollupWindow;DifferentLines;DestopOnWindow"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="NonRectangularWindow:Clean;BitmapWnd:Clean;BmpWnd2:Clean;DragFullWindow:Clean;CaptureMaximizeMinimize:Clean;NonMoveableWindow:Clean;MoveableLabel:Clean;ChangeFormOnKey:Clean;ChangeSysMenu:Clean;CheckIfMenuOpen:Clean;ActivateMenuOnCode:Clean;SimulateButtonClick:Clean;AngledText:Clean;BlinkingTitle:Clean;RollupWindow:Clean;DifferentLines:Clean;DestopOnWindow:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="NonRectangularWindow:Make;BitmapWnd:Make;BmpWnd2:Make;DragFullWindow:Make;CaptureMaximizeMinimize:Make;NonMoveableWindow:Make;MoveableLabel:Make;ChangeFormOnKey:Make;ChangeSysMenu:Make;CheckIfMenuOpen:Make;ActivateMenuOnCode:Make;SimulateButtonClick:Make;AngledText:Make;BlinkingTitle:Make;RollupWindow:Make;DifferentLines:Make;DestopOnWindow:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
